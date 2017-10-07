@@ -1,0 +1,121 @@
+ROR_1:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) >= 48  =>   validString.charAt( i ) > 48
+ROR_2:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) >= 48  =>   validString.charAt( i ) < 48
+ROR_3:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) >= 48  =>   validString.charAt( i ) <= 48
+ROR_4:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) >= 48  =>   validString.charAt( i ) == 48
+ROR_5:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) >= 48  =>   validString.charAt( i ) != 48
+ROR_6:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) <= 57  =>   validString.charAt( i ) > 57
+ROR_7:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) <= 57  =>   validString.charAt( i ) >= 57
+ROR_8:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) <= 57  =>   validString.charAt( i ) < 57
+ROR_9:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) <= 57  =>   validString.charAt( i ) == 57
+ROR_10:14:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) <= 57  =>   validString.charAt( i ) != 57
+ROR_11:20:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) == inteiros[j]  =>   validString.charAt( i ) > inteiros[j]
+ROR_12:20:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) == inteiros[j]  =>   validString.charAt( i ) >= inteiros[j]
+ROR_13:20:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) == inteiros[j]  =>   validString.charAt( i ) < inteiros[j]
+ROR_14:20:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) == inteiros[j]  =>   validString.charAt( i ) <= inteiros[j]
+ROR_15:20:int_whatKindOfNumber(java.lang.String): validString.charAt( i ) == inteiros[j]  =>   validString.charAt( i ) != inteiros[j]
+ROR_16:25:int_whatKindOfNumber(java.lang.String): letters + numbers == validString.length()  =>   letters + numbers > validString.length()
+ROR_17:25:int_whatKindOfNumber(java.lang.String): letters + numbers == validString.length()  =>   letters + numbers >= validString.length()
+ROR_18:25:int_whatKindOfNumber(java.lang.String): letters + numbers == validString.length()  =>   letters + numbers < validString.length()
+ROR_19:25:int_whatKindOfNumber(java.lang.String): letters + numbers == validString.length()  =>   letters + numbers <= validString.length()
+ROR_20:25:int_whatKindOfNumber(java.lang.String): letters + numbers == validString.length()  =>   letters + numbers != validString.length()
+ROR_21:26:int_whatKindOfNumber(java.lang.String): letters > 0  =>   letters >= 0
+ROR_22:26:int_whatKindOfNumber(java.lang.String): letters > 0  =>   letters < 0
+ROR_23:26:int_whatKindOfNumber(java.lang.String): letters > 0  =>   letters <= 0
+ROR_24:26:int_whatKindOfNumber(java.lang.String): letters > 0  =>   letters == 0
+ROR_25:26:int_whatKindOfNumber(java.lang.String): letters > 0  =>   letters != 0
+ROR_26:26:int_whatKindOfNumber(java.lang.String): numbers == 0  =>   numbers > 0
+ROR_27:26:int_whatKindOfNumber(java.lang.String): numbers == 0  =>   numbers >= 0
+ROR_28:26:int_whatKindOfNumber(java.lang.String): numbers == 0  =>   numbers < 0
+ROR_29:26:int_whatKindOfNumber(java.lang.String): numbers == 0  =>   numbers <= 0
+ROR_30:26:int_whatKindOfNumber(java.lang.String): numbers == 0  =>   numbers != 0
+ROR_31:29:int_whatKindOfNumber(java.lang.String): numbers > 0  =>   numbers >= 0
+ROR_32:29:int_whatKindOfNumber(java.lang.String): numbers > 0  =>   numbers < 0
+ROR_33:29:int_whatKindOfNumber(java.lang.String): numbers > 0  =>   numbers <= 0
+ROR_34:29:int_whatKindOfNumber(java.lang.String): numbers > 0  =>   numbers == 0
+ROR_35:29:int_whatKindOfNumber(java.lang.String): numbers > 0  =>   numbers != 0
+ROR_36:29:int_whatKindOfNumber(java.lang.String): letters == 0  =>   letters > 0
+ROR_37:29:int_whatKindOfNumber(java.lang.String): letters == 0  =>   letters >= 0
+ROR_38:29:int_whatKindOfNumber(java.lang.String): letters == 0  =>   letters < 0
+ROR_39:29:int_whatKindOfNumber(java.lang.String): letters == 0  =>   letters <= 0
+ROR_40:29:int_whatKindOfNumber(java.lang.String): letters == 0  =>   letters != 0
+ROR_41:41:int_arabicEquivalent(char): roman == 'I'  =>   roman > 'I'
+ROR_42:41:int_arabicEquivalent(char): roman == 'I'  =>   roman >= 'I'
+ROR_43:41:int_arabicEquivalent(char): roman == 'I'  =>   roman < 'I'
+ROR_44:41:int_arabicEquivalent(char): roman == 'I'  =>   roman <= 'I'
+ROR_45:41:int_arabicEquivalent(char): roman == 'I'  =>   roman != 'I'
+ROR_46:44:int_arabicEquivalent(char): roman == 'V'  =>   roman > 'V'
+ROR_47:44:int_arabicEquivalent(char): roman == 'V'  =>   roman >= 'V'
+ROR_48:44:int_arabicEquivalent(char): roman == 'V'  =>   roman < 'V'
+ROR_49:44:int_arabicEquivalent(char): roman == 'V'  =>   roman <= 'V'
+ROR_50:44:int_arabicEquivalent(char): roman == 'V'  =>   roman != 'V'
+ROR_51:47:int_arabicEquivalent(char): roman == 'X'  =>   roman > 'X'
+ROR_52:47:int_arabicEquivalent(char): roman == 'X'  =>   roman >= 'X'
+ROR_53:47:int_arabicEquivalent(char): roman == 'X'  =>   roman < 'X'
+ROR_54:47:int_arabicEquivalent(char): roman == 'X'  =>   roman <= 'X'
+ROR_55:47:int_arabicEquivalent(char): roman == 'X'  =>   roman != 'X'
+ROR_56:50:int_arabicEquivalent(char): roman == 'L'  =>   roman > 'L'
+ROR_57:50:int_arabicEquivalent(char): roman == 'L'  =>   roman >= 'L'
+ROR_58:50:int_arabicEquivalent(char): roman == 'L'  =>   roman < 'L'
+ROR_59:50:int_arabicEquivalent(char): roman == 'L'  =>   roman <= 'L'
+ROR_60:50:int_arabicEquivalent(char): roman == 'L'  =>   roman != 'L'
+ROR_61:53:int_arabicEquivalent(char): roman == 'C'  =>   roman > 'C'
+ROR_62:53:int_arabicEquivalent(char): roman == 'C'  =>   roman >= 'C'
+ROR_63:53:int_arabicEquivalent(char): roman == 'C'  =>   roman < 'C'
+ROR_64:53:int_arabicEquivalent(char): roman == 'C'  =>   roman <= 'C'
+ROR_65:53:int_arabicEquivalent(char): roman == 'C'  =>   roman != 'C'
+ROR_66:56:int_arabicEquivalent(char): roman == 'D'  =>   roman > 'D'
+ROR_67:56:int_arabicEquivalent(char): roman == 'D'  =>   roman >= 'D'
+ROR_68:56:int_arabicEquivalent(char): roman == 'D'  =>   roman < 'D'
+ROR_69:56:int_arabicEquivalent(char): roman == 'D'  =>   roman <= 'D'
+ROR_70:56:int_arabicEquivalent(char): roman == 'D'  =>   roman != 'D'
+ROR_71:59:int_arabicEquivalent(char): roman == 'M'  =>   roman > 'M'
+ROR_72:59:int_arabicEquivalent(char): roman == 'M'  =>   roman >= 'M'
+ROR_73:59:int_arabicEquivalent(char): roman == 'M'  =>   roman < 'M'
+ROR_74:59:int_arabicEquivalent(char): roman == 'M'  =>   roman <= 'M'
+ROR_75:59:int_arabicEquivalent(char): roman == 'M'  =>   roman != 'M'
+ROR_76:67:boolean_isValidNumber(int): number > 0  =>   number >= 0
+ROR_77:67:boolean_isValidNumber(int): number > 0  =>   number < 0
+ROR_78:67:boolean_isValidNumber(int): number > 0  =>   number <= 0
+ROR_79:67:boolean_isValidNumber(int): number > 0  =>   number == 0
+ROR_80:67:boolean_isValidNumber(int): number > 0  =>   number != 0
+ROR_81:67:boolean_isValidNumber(int): number <= 1000  =>   number > 1000
+ROR_82:67:boolean_isValidNumber(int): number <= 1000  =>   number >= 1000
+ROR_83:67:boolean_isValidNumber(int): number <= 1000  =>   number < 1000
+ROR_84:67:boolean_isValidNumber(int): number <= 1000  =>   number == 1000
+ROR_85:67:boolean_isValidNumber(int): number <= 1000  =>   number != 1000
+ROR_86:77:int_toArabic(java.lang.String): whatKindOfNumber( romanUpperCase ) == 1  =>   whatKindOfNumber( romanUpperCase ) > 1
+ROR_87:77:int_toArabic(java.lang.String): whatKindOfNumber( romanUpperCase ) == 1  =>   whatKindOfNumber( romanUpperCase ) >= 1
+ROR_88:77:int_toArabic(java.lang.String): whatKindOfNumber( romanUpperCase ) == 1  =>   whatKindOfNumber( romanUpperCase ) < 1
+ROR_89:77:int_toArabic(java.lang.String): whatKindOfNumber( romanUpperCase ) == 1  =>   whatKindOfNumber( romanUpperCase ) <= 1
+ROR_90:77:int_toArabic(java.lang.String): whatKindOfNumber( romanUpperCase ) == 1  =>   whatKindOfNumber( romanUpperCase ) != 1
+ROR_91:78:int_toArabic(java.lang.String): i > 0  =>   i >= 0
+ROR_92:78:int_toArabic(java.lang.String): i > 0  =>   i < 0
+ROR_93:78:int_toArabic(java.lang.String): i > 0  =>   i <= 0
+ROR_94:78:int_toArabic(java.lang.String): i > 0  =>   i == 0
+ROR_95:78:int_toArabic(java.lang.String): i > 0  =>   i != 0
+ROR_96:81:int_toArabic(java.lang.String): right > left  =>   right >= left
+ROR_97:81:int_toArabic(java.lang.String): right > left  =>   right < left
+ROR_98:81:int_toArabic(java.lang.String): right > left  =>   right <= left
+ROR_99:81:int_toArabic(java.lang.String): right > left  =>   right == left
+ROR_100:81:int_toArabic(java.lang.String): right > left  =>   right != left
+ROR_101:83:int_toArabic(java.lang.String): i == 1  =>   i > 1
+ROR_102:83:int_toArabic(java.lang.String): i == 1  =>   i >= 1
+ROR_103:83:int_toArabic(java.lang.String): i == 1  =>   i < 1
+ROR_104:83:int_toArabic(java.lang.String): i == 1  =>   i <= 1
+ROR_105:83:int_toArabic(java.lang.String): i == 1  =>   i != 1
+ROR_106:91:int_toArabic(java.lang.String): signalLastCharacter == true  =>   signalLastCharacter != true
+ROR_107:104:java.lang.String_toRoman(java.lang.String): whatKindOfNumber( arabic ) == 2  =>   whatKindOfNumber( arabic ) > 2
+ROR_108:104:java.lang.String_toRoman(java.lang.String): whatKindOfNumber( arabic ) == 2  =>   whatKindOfNumber( arabic ) >= 2
+ROR_109:104:java.lang.String_toRoman(java.lang.String): whatKindOfNumber( arabic ) == 2  =>   whatKindOfNumber( arabic ) < 2
+ROR_110:104:java.lang.String_toRoman(java.lang.String): whatKindOfNumber( arabic ) == 2  =>   whatKindOfNumber( arabic ) <= 2
+ROR_111:104:java.lang.String_toRoman(java.lang.String): whatKindOfNumber( arabic ) == 2  =>   whatKindOfNumber( arabic ) != 2
+ROR_112:111:java.lang.String_toRoman(java.lang.String): i >= 0  =>   i > 0
+ROR_113:111:java.lang.String_toRoman(java.lang.String): i >= 0  =>   i < 0
+ROR_114:111:java.lang.String_toRoman(java.lang.String): i >= 0  =>   i <= 0
+ROR_115:111:java.lang.String_toRoman(java.lang.String): i >= 0  =>   i == 0
+ROR_116:111:java.lang.String_toRoman(java.lang.String): i >= 0  =>   i != 0
+ROR_117:114:java.lang.String_toRoman(java.lang.String): vezes > 0  =>   vezes >= 0
+ROR_118:114:java.lang.String_toRoman(java.lang.String): vezes > 0  =>   vezes < 0
+ROR_119:114:java.lang.String_toRoman(java.lang.String): vezes > 0  =>   vezes <= 0
+ROR_120:114:java.lang.String_toRoman(java.lang.String): vezes > 0  =>   vezes == 0
+ROR_121:114:java.lang.String_toRoman(java.lang.String): vezes > 0  =>   vezes != 0

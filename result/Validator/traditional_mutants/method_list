@@ -1,0 +1,5 @@
+int_whatKindOfNumber(java.lang.String)
+int_arabicEquivalent(char)
+boolean_isValidNumber(int)
+int_toArabic(java.lang.String)
+java.lang.String_toRoman(java.lang.String)
